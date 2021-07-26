@@ -5,11 +5,10 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
-//import { HelloComponent } from './hello.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  //declarations: [ AppComponent, HelloComponent ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
