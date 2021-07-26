@@ -2,7 +2,7 @@
   <p>Michael Scott Burke</p>
   <nav >
     <ul>
-      <li *ngFor="let l of navLinks"><a routerLink="l.route">{{l.label}}</a></li>
+      <li *ngFor="let l of navLinks"><a [routerLink]="l.route">{{l.label}}</a></li>
     </ul>
   </nav>
 </header>

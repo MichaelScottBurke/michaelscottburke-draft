@@ -9,19 +9,19 @@ export class AppComponent  {
   navLinks = [
     {
       label: 'about',
-      route: '/about'
+      route: 'about'
     },
     {
       label: 'resume',
-      route: '/resume'
+      route: 'resume'
     },
     {
       label: 'portfolio',
-      route: '/portfolio'
+      route: 'portfolio'
     },
     {
       label: 'contact',
-      route: '/contact'
+      route: 'contact'
     }
   ];
 }
