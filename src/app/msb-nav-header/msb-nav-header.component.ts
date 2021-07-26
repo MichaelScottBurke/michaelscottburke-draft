@@ -8,16 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class MsbNavHeaderComponent implements OnInit {
   navLinks = [
     {
+      label: 'work',
+      route: 'portfolio'
+    },
+    /*
+    {
       label: 'about',
       route: 'about'
     },
+    */
     {
       label: 'resume',
       route: 'resume'
-    },
-    {
-      label: 'portfolio',
-      route: 'portfolio'
     },
     {
       label: 'contact',
