@@ -1,0 +1,22 @@
+.msb-resume {
+  //background: red;
+  max-width: 800px;
+  margin: 0 auto;
+  .resume-section {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+  }
+  .resume-heading {
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+  .resume-content {
+    max-width: 37.5rem;
+    h3 {
+
+    }
+  }
+}

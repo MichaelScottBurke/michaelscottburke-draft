@@ -31,10 +31,13 @@
       align-self: auto;
     }
     .msb-nav-header-title {
+      font-family: "Source Sans Pro", "Open Sans", sans-serif; /* "Montserrat", */
       font-size: 2rem;
+      font-weight: 600;
     }
     .msb-nav-header-subtitle {
       color: $msb-text-low-emphasis-on-light;
+      font-weight: normal;
     }
     .msb-nav-header-nav {
       -webkit-order: 0;
