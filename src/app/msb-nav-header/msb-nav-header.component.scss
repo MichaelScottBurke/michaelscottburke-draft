@@ -1,4 +1,5 @@
 @import './../../css/variables/typography';
+
 .msb-nav-header {
   display: -ms-flexbox;
     display: -webkit-flex;
@@ -19,6 +20,12 @@
     -ms-flex-align: center;
     align-items: center;
     margin: 2rem 0 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2.5rem;
+    width: 100%;
+    background-color: white;
     .msb-nav-header-text {
       -webkit-order: 0;
       -ms-flex-order: 0;
