@@ -8,7 +8,7 @@ import { AboutComponent } from './pages/about/about.component';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
   declarations: [ AppComponent, AboutComponent ],
   bootstrap:    [ AppComponent ]
 })
