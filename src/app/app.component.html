@@ -1,7 +1,10 @@
 <div class="msb-container">
-  <header>
-    <p>Michael Scott Burke</p>
-    <nav >
+  <header class="msb-nav-header">
+    <div class="msb-nav-header-text">
+      <p class="msb-nav-header-title">Michael Scott Burke</p>
+      <p class="msb-nav-header-subtitle">Product Designer</p>
+    </div>
+    <nav class="msb-nav-header-nav">
       <ul>
         <li *ngFor="let l of navLinks"><a [routerLink]="l.route">{{l.label}}</a></li>
       </ul>
