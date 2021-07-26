@@ -12,7 +12,7 @@ import { ThemeTestComponent } from '../tests/theme-test/theme-test.component';
 */
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/theme-test', pathMatch: 'full' },
+  { path: '',   redirectTo: '/', pathMatch: 'full' },
   /*
   { path: 'home-doc', component: HomeDocComponent },
   { path: 'buttons-doc', component: ButtonsDocComponent },
