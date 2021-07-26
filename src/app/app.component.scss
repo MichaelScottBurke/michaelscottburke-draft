@@ -1,0 +1,12 @@
+.msb-container {
+  @media only screen and (max-width: 599px) { 
+    margin: 1rem;
+  }
+  @media only screen and (min-width: 600px) and (max-width: 959px) { 
+    margin: 1.5rem;
+  }
+  @media only screen and (min-width: 960px) { 
+    margin: 1.5rem auto;
+    max-width: 960px;
+  }
+}

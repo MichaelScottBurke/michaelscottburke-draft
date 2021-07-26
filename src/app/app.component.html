@@ -1,14 +1,16 @@
-<header>
-  <p>Michael Scott Burke</p>
-  <nav >
-    <ul>
-      <li *ngFor="let l of navLinks"><a [routerLink]="l.route">{{l.label}}</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <router-outlet></router-outlet>
-</main>
+<div class="msb-container">
+  <header>
+    <p>Michael Scott Burke</p>
+    <nav >
+      <ul>
+        <li *ngFor="let l of navLinks"><a [routerLink]="l.route">{{l.label}}</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>
 <footer>
   footer
 </footer>

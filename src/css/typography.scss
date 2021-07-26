@@ -11,18 +11,26 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
-h1 {font-size: 2rem;}
-h2 {font-size: 1.75rem;}
-h3 {}
+h1 {font-size: 1.5rem;}
+h2 {
+  font-size: 1.25rem;
+  &:not(:first-of-type) {
+    margin-top: 2.5rem;
+  }
+}
+h3 {
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
 h4 {}
 h5 {}
 h6 {}
 
 p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.3;
 }
