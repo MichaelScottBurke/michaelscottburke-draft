@@ -24,7 +24,7 @@
     left: 0;
     padding: 2.5rem 1.5rem 1rem;
     width: 100%;
-    background-color: red;//white;
+    background-color: white;
     .msb-nav-header-text {
       -webkit-order: 0;
       -ms-flex-order: 0;
@@ -40,6 +40,7 @@
       font-family: "Source Sans Pro", "Open Sans", sans-serif; /* "Montserrat", */
       font-size: 2rem;
       font-weight: 600;
+      line-height: 1;
     }
     .msb-nav-header-subtitle {
       color: $msb-text-low-emphasis-on-light;
@@ -66,4 +67,17 @@
         }
       }
     }
+}
+
+.msb-nav-header {
+  @media only screen and (max-width: 599px) { 
+    width: 100%;
+  }
+  @media only screen and (min-width: 600px) and (max-width: 959px) { 
+    margin: 0 1.5rem;
+  }
+  @media only screen and (min-width: 960px) { 
+    margin: 0 auto;
+    max-width: 960px;
+  }
 }
